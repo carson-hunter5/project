@@ -1,5 +1,5 @@
 ---
-title: "Stats are fun"
+title: "Github Set-Uo"
 date: 2024-05-17
 draft: false
 description: "First Blog Post"
@@ -11,6 +11,5 @@ showAuthorsBadges : false
 ---
 
 # Github Set-Up 
-
 This was atrocious! 
 
