@@ -37,7 +37,7 @@
   weight = 20
 
 [[main]]
-  name = "DylanSacks"
+  name = "Dylan Sacks"
   parent = "Team Members"
   pageRef = "DylanSacks"
   weight = 20
