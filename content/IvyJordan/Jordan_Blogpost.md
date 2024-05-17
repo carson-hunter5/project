@@ -15,4 +15,3 @@ showAuthorsBadges : false
 This was atrocious! 
 
 Github Desktop for the win...screw the command line.
-
