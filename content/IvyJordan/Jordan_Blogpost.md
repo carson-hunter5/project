@@ -1,6 +1,6 @@
 ---
 title: "Stats are fun"
-date: 2024-05-18
+date: 2024-05-17
 draft: false
 description: "LETS FREAKING GOO"
 slug: "exampleblogpost"  
