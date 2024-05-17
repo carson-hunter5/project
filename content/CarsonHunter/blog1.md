@@ -6,7 +6,7 @@ description: "My example"
 slug: "examplepost"
 tags: ["authors", "config", "docs"]
 authors:
-  - "carson_hunter""
+  - "carson_hunter"
 showAuthorsBadges : false
 ---
 
