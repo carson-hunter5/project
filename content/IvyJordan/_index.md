@@ -1,3 +1,3 @@
 # Ivy Jordan
 
-Hi, I'm Ivy Jordan, and I love databases!
+Hi, My name is Eric Gerber, and I am still kind of figuring out Git!
