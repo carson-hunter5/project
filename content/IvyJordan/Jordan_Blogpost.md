@@ -21,3 +21,11 @@ With Belgium being home to so many international bodies, and having contact with
 
 # **Leuven's Languages**  
 
+Leuven has a large international presence, with a student body comprising from over 100 countries. This diversity is reflected in the wide variety of languages spoken around Leuven. From the Belgian common languages such as Flemish Dutch and French, I've even heard students speaking Russian, Irish, and even Arabic. With Leuven being an international hub for foreign policy, it makes sense that a large international student population would follow as well, which enrichens the educational experience in Leuven, and henceforth Brussels. 
+
+# **Database Design in Leuven** 
+
+As the first week of classes concludes here in Leuven and we begin to learn more about the fundamentals of database design. Its intereting to learn more about the ways to properly call upon data using SQL. I was vaguely familar with the language from my time taking Principles of Information Science and being able to analyze adatsets to pull direct information, but the caliber of information being pulled required at most a single standard select statement and being able to pull elementary data from them. In the rough two days that we've had full session classes, I've managed to utilize more of SQL than before with being able to pull more niche or nested data b using a series of more complex operations in SQL such as NATURAL JOINS, ORDER BY, ASIDES, and UNIONS. 
+
+I'm defintely excited about being able to use sql to form a type of 
+a data-driven app focusing on the areas of international politics and government, and seeing what real world scenarios and issues that could be possibly solved through the usage of data. 
