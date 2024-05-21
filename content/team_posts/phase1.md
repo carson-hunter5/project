@@ -69,3 +69,15 @@ This question further prepares countries to be ready for immigrants, expanding f
 ## Question 3: How can we optimize resource allocation and strategic planning for stakeholders based on predicted refugee and migration patterns?
 
 I think this question is interesting/mandatory because this data can help enhance the timeliness and effectiveness of humanitarian responses, ensuring that aid reaches those in need more quickly and efficiently during crises such as the situation arising in Gaza. 
+
+From: https://icr.ethz.ch/data/epr/er/ - Ethnicity of Refugees 2021 Database
+import pandas as pd
+import requests
+
+url = 'https://icr.ethz.ch/data/epr/er/ER-2021.json'
+url_text = requests.get(url).text
+lines = url_text.split('\n')
+for line in lines[:5]:
+    print(line)
+    
+
