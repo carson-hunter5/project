@@ -29,6 +29,20 @@ Migration is a natural byproduct of any human society and thus has remained and 
 
 # Data Sources
 
+http://data.un.org/Data.aspx?d=UNHCR&f=indID%3aType-Ref - Table of refugees
+
+https://data.un.org/Data.aspx?d=POP&f=tableCode:128&c=2,3,6,8,10,12,14,16,17,18&s=_countryEnglishNameOrderBy:asc,refYear:desc,areaCode:asc&v=1 - Foreign population (non-citizens) 15 years of age or over by country of citizenship, educational attainment and sex
+
+https://www.unhcr.org/refugee-statistics/download/?url=g09Osq - refugee data finder
+
+https://data.un.org/Data.aspx?d=POP&f=tableCode:405&c=2,3,6,8,10,12,14,15,16&s=_countryEnglishNameOrderBy:asc,refYear:desc,areaCode:asc&v=1 - Number of incoming foreign migrants by country of citizenship and sex
+
+http://data.un.org/Data.aspx?d=POP&f=tableCode%3a403 - Outflows by purpose of going abroad and sex
+
+https://api.unhcr.org/docs/refugee-statistics.html#api-Default-solutions - Refugee statistics API 
+
+https://icr.ethz.ch/data/epr/er/ - Ethnicity of Refugees 2021 Database
+
 
 
 # User Persona and Stories
