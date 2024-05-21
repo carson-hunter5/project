@@ -75,6 +75,8 @@ I think this question is interesting/mandatory because this data can help enhanc
 ### From: https://icr.ethz.ch/data/epr/er/ - Ethnicity of Refugees 2021 Database
 
 !['Data'](/Users/dylansacks/Downloads/Screenshot\ 2024-05-21\ at\ 7.20.13\ PM.png )
+
+
 {
 	"data": [
 		{"year": 1988, "coa": "United States", "coo": "Cuba", "totalrefugees": 3863, "ccode_coo": 40, "ccode_coa": 2, "minimal_distance": 204724, "groupname1": "Whites", "gwgroupid1": 4001000, "groupname2": "Mulattoes", "gwgroupid2": null, "groupname3": "Blacks", "gwgroupid3": 4002000, "sources": "http:\/\/www.ascecuba.org\/publications\/proceedings\/volume5\/pdfs\/FILE26.pdf", "quote": "Though Cuba has always been a multi-racial society, despite their deifferences, prior to Mariel both major waves of Cuban immigrants were predominatly White", "groupshare1_num": "dominant", "groupshare2_num": "minority", "groupshare3_num": "minority", "group1share_multiplier": 0.9, "group2share_multiplier": 0.05, "group3share_multiplier": 0.05, "group1_size": 3476.7, "group2_size": 193.15, "group3_size": 193.15},
