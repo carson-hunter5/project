@@ -18,7 +18,7 @@ However learning more about the reasoning behind the location, makes sense in te
 
 With Belgium being home to so many international bodies, and having contact with representatives from over 45 countries, it also adds to the multitude of languages being spoken not ony in the capital of Brussels, but even here in Leuven. 
 
-![](/Users/ivionnajordan/cs3200/project/content/IvyJordan/nato_photo.pdf)
+![](/Users/ivionnajordan/cs3200/project/content/IvyJordan/IMG_0210.jpg)
 *Visting NATO headquarters on May 17th, 2024*
 
 # **Leuven's Languages**  
