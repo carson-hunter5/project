@@ -76,9 +76,3 @@ I think this question is interesting/mandatory because this data can help enhanc
 
 ![Data](https://raw.githubusercontent.com/carson-hunter5/project/99d94c7b8cfc94b057324b537b4729e9a04a98ec/Screenshot%202024-05-18%20at%209.31.38%20PM.png)
 
-
-{
-	"data": [
-		{"year": 1988, "coa": "United States", "coo": "Cuba", "totalrefugees": 3863, "ccode_coo": 40, "ccode_coa": 2, "minimal_distance": 204724, "groupname1": "Whites", "gwgroupid1": 4001000, "groupname2": "Mulattoes", "gwgroupid2": null, "groupname3": "Blacks", "gwgroupid3": 4002000, "sources": "http:\/\/www.ascecuba.org\/publications\/proceedings\/volume5\/pdfs\/FILE26.pdf", "quote": "Though Cuba has always been a multi-racial society, despite their deifferences, prior to Mariel both major waves of Cuban immigrants were predominatly White", "groupshare1_num": "dominant", "groupshare2_num": "minority", "groupshare3_num": "minority", "group1share_multiplier": 0.9, "group2share_multiplier": 0.05, "group3share_multiplier": 0.05, "group1_size": 3476.7, "group2_size": 193.15, "group3_size": 193.15},
-		{"year": 1989, "coa": "United States", "coo": "Cuba", "totalrefugees": 7668, "ccode_coo": 40, "ccode_coa": 2, "minimal_distance": 204724, "groupname1": "Whites", "gwgroupid1": 4001000, "groupname2": "Mulattoes", "gwgroupid2": null, "groupname3": "Blacks", "gwgroupid3": 4002000, "sources": "http:\/\/www.ascecuba.org\/publications\/proceedings\/volume5\/pdfs\/FILE26.pdf", "quote": "Data from the 1990 census shows that 86.3 percen ot the immigrant were White Cubans, 0.2 percent were Black Cubans, 0.3 percent were Asians and 13.2 percent designated themselves as beloinging to other race. In Cuba, as in the rest of the Carib", "groupshare1_num": "dominant", "groupshare2_num": "minority", "groupshare3_num": "minority", "group1share_multiplier": 0.9, "group2share_multiplier": 0.05, "group3share_multiplier": 0.05, "group1_size": 6901.2, "group2_size": 383.4, "group3_size": 383.4}}
-
