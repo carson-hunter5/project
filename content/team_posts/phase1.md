@@ -71,13 +71,8 @@ This question further prepares countries to be ready for immigrants, expanding f
 I think this question is interesting/mandatory because this data can help enhance the timeliness and effectiveness of humanitarian responses, ensuring that aid reaches those in need more quickly and efficiently during crises such as the situation arising in Gaza. 
 
 From: https://icr.ethz.ch/data/epr/er/ - Ethnicity of Refugees 2021 Database
-import pandas as pd
-import requests
-
-url = 'https://icr.ethz.ch/data/epr/er/ER-2021.json'
-url_text = requests.get(url).text
-lines = url_text.split('\n')
-for line in lines[:5]:
-    print(line)
-    
+{
+	"data": [
+		{"year": 1988, "coa": "United States", "coo": "Cuba", "totalrefugees": 3863, "ccode_coo": 40, "ccode_coa": 2, "minimal_distance": 204724, "groupname1": "Whites", "gwgroupid1": 4001000, "groupname2": "Mulattoes", "gwgroupid2": null, "groupname3": "Blacks", "gwgroupid3": 4002000, "sources": "http:\/\/www.ascecuba.org\/publications\/proceedings\/volume5\/pdfs\/FILE26.pdf", "quote": "Though Cuba has always been a multi-racial society, despite their deifferences, prior to Mariel both major waves of Cuban immigrants were predominatly White", "groupshare1_num": "dominant", "groupshare2_num": "minority", "groupshare3_num": "minority", "group1share_multiplier": 0.9, "group2share_multiplier": 0.05, "group3share_multiplier": 0.05, "group1_size": 3476.7, "group2_size": 193.15, "group3_size": 193.15},
+		{"year": 1989, "coa": "United States", "coo": "Cuba", "totalrefugees": 7668, "ccode_coo": 40, "ccode_coa": 2, "minimal_distance": 204724, "groupname1": "Whites", "gwgroupid1": 4001000, "groupname2": "Mulattoes", "gwgroupid2": null, "groupname3": "Blacks", "gwgroupid3": 4002000, "sources": "http:\/\/www.ascecuba.org\/publications\/proceedings\/volume5\/pdfs\/FILE26.pdf", "quote": "Data from the 1990 census shows that 86.3 percen ot the immigrant were White Cubans, 0.2 percent were Black Cubans, 0.3 percent were Asians and 13.2 percent designated themselves as beloinging to other race. In Cuba, as in the rest of the Carib", "groupshare1_num": "dominant", "groupshare2_num": "minority", "groupshare3_num": "minority", "group1share_multiplier": 0.9, "group2share_multiplier": 0.05, "group3share_multiplier": 0.05, "group1_size": 6901.2, "group2_size": 383.4, "group3_size": 383.4},
 
