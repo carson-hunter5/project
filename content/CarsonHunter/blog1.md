@@ -3,7 +3,7 @@ title: "Blog Post #1"
 date: 2024-05-17
 draft: false
 description: "My first post!"
-slug: "examplepost"
+slug: "post1"
 tags: ["authors", "config", "docs"]
 authors:
   - "carson_hunter"
