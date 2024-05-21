@@ -1,8 +1,8 @@
 ---
-title: "Carson Example Blog Post"
+title: "Blog Post #1"
 date: 2024-05-17
 draft: false
-description: "My example"
+description: "My first post!"
 slug: "examplepost"
 tags: ["authors", "config", "docs"]
 authors:
@@ -25,8 +25,6 @@ When we arrived in Leuven, I was amazed at the city's architecture. I joked with
 ## **NATO**
 
 I'll admit, I was not enthusiastic to wake up at 6:00am to go to NATO. In fact, when my alarm clock rang, there were many other things I would have preferred to do at that moment. Thankfully, I stuck it out, and got to have such an awesome experience at the headquarters of an extremely powerful organization. It was truly such a privileged experience to be able to have talks with such bright people.
-
- [IMG_0171.HEIC](../../../../../Library/Messages/Attachments/40/00/022CC690-AA7A-4C17-821D-470AEAFDBEBB/IMG_0171.HEIC)  
 
 ## **Bruges**
 
