@@ -74,7 +74,7 @@ I think this question is interesting/mandatory because this data can help enhanc
 # Affirmation of data collection
 ### From: https://icr.ethz.ch/data/epr/er/ - Ethnicity of Refugees 2021 Database
 
-!['Data'](/Users/dylansacks/Downloads/Screenshot\ 2024-05-21\ at\ 7.20.13\ PM.png )
+!['Data'](Users/dylansacks/Downloads/Screenshot\ 2024-05-21\ at\ 7.20.13\ PM.png )
 
 
 {
