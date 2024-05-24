@@ -53,23 +53,23 @@ a) Davies will be able to allocate resources needed populations within a targete
 
 b) Davies will be able to efficinetly manage immigration applications and anticipate where an influx of groups may arise from during a time of crisis based on historical context. 
 
-c) Davies will be able to coordinate with other immigartion enities to be able to write policies and regulations on immigration based on the attributes and qualities of migration from certain countries. 
+c) As a field officer, I want to be able to coordinate with other immigartion enities so that policies and regulations on immigration are based on the attributes and qualities of migration from certain countries. 
 
 **Relief Groups: Kyle Medina is a data scientist for the UNHCR based in Geneva, Switzerland, who is tasked with overseeing NGO / Red Cross locations which are facing a shortage of supplies in developing countries in the Southern Hemisphere.**
 
-a) He will be able to predict migration patterns to nearby asylum seeking countries, so they can account for the amount of necessary supplies needed for a duration of time.
+a) As a data scientist, I want to predict migration patterns to nearby asylum seeking countries, so that we can account for the amount of necessary supplies needed for a duration of time.
 
-b) He will be able to know which regions that will be prone to an influx of refugees and know the amount of employees/volunteers needed per 1,000 refugees. 
+b) As a data scientist, I want to know which regions that will be prone to an influx of refugees so that we can anticapte the amount of employees/volunteers needed during a given timeframe.  
 
-c) He will be able to enhance the efficiency of distribution flow for certain products needed by a certain group of refugees such as women vs men, and children vs elderly groups.
+c) As a data scientist, I want to enhance the efficiency of distribution flow of certain products needed by a certain group of refugees such as women vs men, and children vs elderly groups.
 
 **Urban Development Planners: Tanya Bracker is a city council member from Utica, New York, a city with a large refugee population, based on the last few years population increase, there will be budget cuts and allocations for more city resources.**
 
-a) She will be able to identify the common age demographic levels of refugees so she can know if primary and secondary schools budget allocations will be most effective.
+a) As a city council executive, I want to identify the common age demographic levels of refugees so that I know if primary and secondary schools budget allocations will be most effective.
 
-b) She will be able to anticipate and manage the housing needs for incoming refugees by predicting which regions are likely to send more refugees, thus preventing housing shortages.
+b) As a city council executive, I want to  anticipate and manage the housing needs for incoming refugees by predicting which regions are likely to send more refugees so that we can prevent housing shortages.
 
-c) She will be able to plan for and improve public transportation routes and schedules to better serve areas with high refugee populations. 
+c) As a city council executive, I want to plan for and improve public transportation routes and schedules so that we can better serve areas with high refugee populations. 
 
 # Major Questions
 ## Question 1: Where are populations likely to move during major conflicts/crises?
@@ -82,7 +82,7 @@ This question further prepares countries to be ready for immigrants, expanding f
 
 ## Question 3: How can we optimize resource allocation and strategic planning for stakeholders based on predicted refugee and migration patterns?
 
-I think this question is interesting/mandatory because this data can help enhance the timeliness and effectiveness of humanitarian responses, ensuring that aid reaches those in need more quickly and efficiently during crises such as the situation arising in Gaza. 
+This question is interesting because this data can help enhance the timeliness and effectiveness of humanitarian responses, ensuring that aid reaches those in need more quickly and efficiently during crises such as the situation arising in Gaza. 
 
 
 # Affirmation of data collection
