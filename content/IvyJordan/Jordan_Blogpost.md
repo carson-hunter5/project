@@ -18,8 +18,6 @@ However learning more about the reasoning behind the location, makes sense in te
 
 With Belgium being home to so many international bodies, and having contact with representatives from over 45 countries, it also adds to the multitude of languages being spoken not ony in the capital of Brussels, but even here in Leuven. 
 
-![test](https://i.imgur.com/zjDOCKP.jpeg)
-
 <img src="https://i.imgur.com/zjDOCKP.jpeg"/>
 *Visting NATO headquarters on May 17th, 2024*
 
