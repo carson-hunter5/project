@@ -101,3 +101,4 @@ This graph depicts the global asylum applications by year for every country of o
 **SQL Pop-Up Diagram**
 
 <img src = "https://i.imgur.com/zOUWTg6.png">
+PDF of Jupyter Notebook is included in the project explorer under Migration_API_POC.pdf
