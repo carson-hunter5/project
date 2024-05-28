@@ -89,7 +89,7 @@ This graph depicts the global asylum applications by year for every country of o
 <img src = "https://i.imgur.com/0SvOeaM.png">
 
 
-# Global ER Diagram
+**Global ER Diagram**
 <img src = "https://i.imgur.com/LJgbUFF.png">
 
 
@@ -101,3 +101,9 @@ This graph depicts the global asylum applications by year for every country of o
 **SQL Pop-Up Diagram**
 
 <img src = "https://i.imgur.com/zOUWTg6.png">
+
+
+# Draft Wireframes of POC
+
+<img src = "https://i.imgur.com/weeldsa.png">
+<img src = "https://i.imgur.com/PM8JtmZ.png">
