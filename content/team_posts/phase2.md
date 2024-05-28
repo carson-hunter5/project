@@ -74,3 +74,5 @@ This linear regression model is comparing the asylum applications sent to the Un
 **Global Asylum Applications**
 
 This graph depicts the global asylum applications by year for every country of origin. The data are interesting as they indicate global conflicts, such as a large outlier of asylum applications coming from Ukraine to Russia in 2014. This graph could be used by someone such as Kyle Medina to predict which regions might experience an influx of asylum seekers to efficiently allocate resources such as aid. This can be used to answer the major question whihc sparked this project of "Where are populations likely to move during major conflicts/crises?".
+
+PDF of Jupyter Notebook is included in the project explorer under Migration_API_POC.pdf
