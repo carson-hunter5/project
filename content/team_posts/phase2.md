@@ -74,3 +74,30 @@ This linear regression model is comparing the asylum applications sent to the Un
 **Global Asylum Applications**
 
 This graph depicts the global asylum applications by year for every country of origin. The data are interesting as they indicate global conflicts, such as a large outlier of asylum applications coming from Ukraine to Russia in 2014. This graph could be used by someone such as Kyle Medina to predict which regions might experience an influx of asylum seekers to efficiently allocate resources such as aid. This can be used to answer the major question whihc sparked this project of "Where are populations likely to move during major conflicts/crises?".
+
+# Localized ER Diagrams for User Archetypes 
+
+**Government Immigration Focused Entities**
+<img src = "https://i.imgur.com/5lv14AN.png">
+
+
+**Refugee Entities**
+<img src = "https://i.imgur.com/0sxPRK2.png">
+
+
+**Urban Development and Planning Entities**
+<img src = "https://i.imgur.com/0SvOeaM.png">
+
+
+# Global ER Diagram
+<img src = "https://i.imgur.com/LJgbUFF.png">
+
+
+# SQL DDL for Global Data Model
+**SQL Query**
+
+<img src = "https://i.imgur.com/lIUu9yd.jpeg">
+
+**SQL Pop-Up Diagram**
+
+<img src = "https://i.imgur.com/zOUWTg6.png">
