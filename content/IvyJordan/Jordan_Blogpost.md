@@ -20,7 +20,7 @@ With Belgium being home to so many international bodies, and having contact with
 
 ![test](https://i.imgur.com/zjDOCKP.jpeg)
 
-<img src="blob:https://imgur.com/a6dbbd70-79d1-4614-9d54-e25ac3845715"/>
+<img src="https://i.imgur.com/zjDOCKP.jpeg"/>
 *Visting NATO headquarters on May 17th, 2024*
 
 # **Leuven's Languages**  
