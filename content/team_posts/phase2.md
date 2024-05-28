@@ -68,7 +68,5 @@ This graph shows the age demographics of applicants seeking asylum per year. The
 
 This linear regression model is comparing the asylum applications sent to the United States over time from all countries over time. The challenge surrounding this preliminary model was mainly that the x-values being years are a disctrete value while the y-value representing applications is continuous. Although this is not ideal for an ML model, it is sufficient as a proof of concept that can be ratified by implementing other variables such as applications from specific global areas, which would reveal more information and contribute to the overall question of predicting future asylumn applications. The next step for this model is to use it to predict future values of applications sent to the U.S.
 
-
-*Global Asylum Applications*
-
+[Global Asylum Applications](https://imgur.com/NF08BZZ)
 This graph depicts the global asylum applications by year for every country of origin. The data are interesting as they indicate global conflicts, such as a large outlier of asylum applications coming from Ukraine to Russia in 2014. This graph could be used by someone such as Kyle Medina to predict which regions might experience an influx of asylum seekers to efficiently allocate resources such as aid. This can be used to answer the major question whihc sparked this project of "Where are populations likely to move during major conflicts/crises?".
