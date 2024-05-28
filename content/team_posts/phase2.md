@@ -63,11 +63,11 @@ This graph is depicting the change in immigration application requests from arou
 
 This graph shows the age demographics of applicants seeking asylum per year. There is clearly an increase in the number of 18-59, and 5-11 year old males and females in the past 7 years. It is interesting that the second greatest increase in applications by age group appears to 5-11 year olds, as it would be expected to be either the age demographic immediately before 18-59 year olds. This graph could be used by someone such as Tanya Brakcer to understand and predict the age group demographic immigrating to new countries in order to effectively allocate school budgets. 
 
-<img src = "https://i.imgur.com/uHC5CB7.png"/>
+<img src = "https://i.imgur.com/4TdiS6U.png>
 
 **ML Model POC** 
 
-This linear regression model is comparing the asylum applications sent to the United States over time from all countries over time. The challenge surrounding this preliminary model was mainly that the x-values being years are a disctrete value while the y-value representing applications is continuous. Although this is not ideal for an ML model, it is sufficient as a proof of concept that can be ratified by implementing other variables such as applications from specific global areas, which would reveal more information and contribute to the overall question of predicting future asylumn applications. The next step for this model is to use it to predict future values of applications sent to the U.S.
+This linear regression model is comparing the asylum applications sent to the United States over time from all countries over time. The challenge surrounding this preliminary model was mainly that the x-values being years are a disctrete value while the y-value representing applications is continuous. Although this is not ideal for an ML model, it is sufficient as a proof of concept that can be ratified by implementing other variables such as applications from specific global areas, which would reveal more information and contribute to the overall question of predicting future asylumn applications. The next step for this model is to use it to predict future values of applications sent to the U.S. This model has a slope of 95.18, meaning that every year 95.18 more people apply for asylum than the previous year.
 
 <img src = "https://i.imgur.com/NF08BZZ.png"/>
 
@@ -89,7 +89,7 @@ This graph depicts the global asylum applications by year for every country of o
 <img src = "https://i.imgur.com/0SvOeaM.png">
 
 
-# Global ER Diagram
+**Global ER Diagram**
 <img src = "https://i.imgur.com/LJgbUFF.png">
 
 
@@ -101,3 +101,9 @@ This graph depicts the global asylum applications by year for every country of o
 **SQL Pop-Up Diagram**
 
 <img src = "https://i.imgur.com/zOUWTg6.png">
+
+
+# Draft Wireframes of POC
+
+<img src = "https://i.imgur.com/weeldsa.png">
+<img src = "https://i.imgur.com/PM8JtmZ.png">
