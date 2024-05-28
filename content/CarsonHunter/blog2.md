@@ -16,8 +16,8 @@ We’re officially halfway through the dialogue and I’m more than sad to say t
 
 With that being said, it's been a busy 2 weeks. We’ve had a variety of experiences, from day trips to other cities, more talks with powerful people, and even pastry workshops!
 
-<img src =“https://i.imgur.com/NWJJ9n2.jpeg””>
-<img src =“https://i.imgur.com/3TxLOef.jpeg””>
+<img src =“https://i.imgur.com/NWJJ9n2.jpeg”>
+<img src =“https://i.imgur.com/3TxLOef.jpeg”>
 
 **(Thanks Dr. Fontenot)**
 
