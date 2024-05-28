@@ -42,11 +42,12 @@ c) "As a refugee, I want to view upcoming community events so that I can partici
 
 **Urban Development Planners: Tanya Bracker is a city council member from Utica, New York, a city with a large refugee population, based on the last few years population increase, there will be budget cuts and allocations for more city resources.**
 
-a) As a city council executive, I want to identify the common age demographic levels of refugees so that I know if primary and secondary schools budget allocations will be most effective.
+a)"As an urban development planner, I want to organize community events to support the refugee population so that we can build better relationships between refugees and citizens of the city." 
 
-b) As a city council executive, I want to  anticipate and manage the housing needs for incoming refugees by predicting which regions are likely to send more refugees so that we can prevent housing shortages.
+b)"As an urban development planner, I want to meet with refugee population representatives to address their needs and concerns so that we can better improve refugees’ quality of life during their time in my city."
 
-c) As a city council executive, I want to plan for and improve public transportation routes and schedules so that we can better serve areas with high refugee populations. 
+c)"As an urban development planner, I want to analyze demographic data to enhance city infrastructure for refugees so that we can improve specific infrastructures most used and impacted by refugees."
+
 
 **Data Visualizations**
 <img src = "https://i.imgur.com/TDNNZUF.png"/>
@@ -64,9 +65,12 @@ This graph shows the age demographics of applicants seeking asylum per year. The
 
 <img src = "https://i.imgur.com/uHC5CB7.png"/>
 
-**ML Model POC**
+**ML Model POC** 
 
 This linear regression model is comparing the asylum applications sent to the United States over time from all countries over time. The challenge surrounding this preliminary model was mainly that the x-values being years are a disctrete value while the y-value representing applications is continuous. Although this is not ideal for an ML model, it is sufficient as a proof of concept that can be ratified by implementing other variables such as applications from specific global areas, which would reveal more information and contribute to the overall question of predicting future asylumn applications. The next step for this model is to use it to predict future values of applications sent to the U.S.
 
-[Global Asylum Applications](https://imgur.com/NF08BZZ)
+<img src = "https://i.imgur.com/NF08BZZ.png"/>
+
+**Global Asylum Applications**
+
 This graph depicts the global asylum applications by year for every country of origin. The data are interesting as they indicate global conflicts, such as a large outlier of asylum applications coming from Ukraine to Russia in 2014. This graph could be used by someone such as Kyle Medina to predict which regions might experience an influx of asylum seekers to efficiently allocate resources such as aid. This can be used to answer the major question whihc sparked this project of "Where are populations likely to move during major conflicts/crises?".
