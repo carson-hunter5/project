@@ -49,7 +49,8 @@ b)"As an urban development planner, I want to meet with refugee population repre
 c)"As an urban development planner, I want to analyze demographic data to enhance city infrastructure for refugees so that we can improve specific infrastructures most used and impacted by refugees."
 
 
-**Data Visualizations**
+# Data Visualizations
+
 <img src = "https://i.imgur.com/TDNNZUF.png"/>
 
 **Asylum Applications to USA**
@@ -63,7 +64,7 @@ This graph is depicting the change in immigration application requests from arou
 
 This graph shows the age demographics of applicants seeking asylum per year. There is clearly an increase in the number of 18-59, and 5-11 year old males and females in the past 7 years. It is interesting that the second greatest increase in applications by age group appears to 5-11 year olds, as it would be expected to be either the age demographic immediately before 18-59 year olds. This graph could be used by someone such as Tanya Brakcer to understand and predict the age group demographic immigrating to new countries in order to effectively allocate school budgets. 
 
-<img src = "https://i.imgur.com/4TdiS6U.png">
+<img src = "https://i.imgur.com/4TdiS6U.png"/>
 
 **ML Model POC** 
 
