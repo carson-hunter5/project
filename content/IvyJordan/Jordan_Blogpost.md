@@ -1,8 +1,8 @@
 ---
-title: "First Individual Blog Post"
+title: "Week 1: May 13th - May 20th"
 date: 2024-05-17
 draft: false
-description: "For the week of May 13th - May 17th, I wanted to discuss some of the new things I've learned since being in Belgium. "
+description: "This week's blog post including project changes and personal observations. "
 slug: "blogpost1"  
 tags: ["authors", "config", "docs"]
 authors:

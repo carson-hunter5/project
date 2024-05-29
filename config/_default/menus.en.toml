@@ -21,24 +21,24 @@
   weight = 10
 
 [[main]]
-  name = "Team Members"
+  name = "Members"
   weight = 20
 
 [[main]]
   name = "Carson Hunter"
-  parent = "Team Members"
+  parent = "Members"
   pageRef = "CarsonHunter"
   weight = 20
 
 [[main]]
   name = "Ivy Jordan"
-  parent = "Team Members"
+  parent = "Members"
   pageRef = "IvyJordan"
   weight = 20
 
 [[main]]
   name = "Dylan Sacks"
-  parent = "Team Members"
+  parent = "Members"
   pageRef = "DylanSacks"
   weight = 20
   

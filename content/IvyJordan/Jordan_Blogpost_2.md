@@ -1,8 +1,8 @@
 ---
-title: "Second Blog Post"
+title: "Week 2: May 21st - May 28th"
 date: 2024-05-24
 draft: false
-description: "For the week of May 20th - May 24th, I wanted to discuss some of the new things I've learned since being in Belgium. "
+description: "This week's blog post including project changes and personal observations. "
 slug: "blogpost2"  
 tags: ["authors", "config", "docs"]
 authors:
