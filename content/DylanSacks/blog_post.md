@@ -1,5 +1,5 @@
 ---
-title: "Individual deliverable"
+title: "Individual Blog Post 1"
 date: 2024-05-17
 draft: false
 description: "What I've leared so far"
