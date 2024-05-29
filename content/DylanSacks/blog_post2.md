@@ -1,6 +1,6 @@
 ---
 title: "Individual Blog Post 2"
-date: 2024-05-17
+date: 2024-05-29
 draft: false
 description: "My contribution to phase 2"
 slug: "phase2individualpost"
