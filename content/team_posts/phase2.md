@@ -108,3 +108,6 @@ This graph depicts the global asylum applications by year for every country of o
 
 <img src = "https://i.imgur.com/weeldsa.png">
 <img src = "https://i.imgur.com/PM8JtmZ.png">
+<img src = "https://i.imgur.com/sm3fAyp.png">
+<img src = "https://i.imgur.com/AYKyr5Q.png">
+<img src = "https://i.imgur.com/JUdd0EN.png">
