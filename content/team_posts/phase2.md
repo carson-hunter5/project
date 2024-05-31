@@ -110,3 +110,6 @@ This graph depicts the global asylum applications by year for every country of o
 
 <img src = "https://i.imgur.com/weeldsa.png">
 <img src = "https://i.imgur.com/PM8JtmZ.png">
+
+# Correlation Graph of Populations Seeking Asylum and Population Demographics
+<img src =  "https://imgur.com/ugQaPNx"
