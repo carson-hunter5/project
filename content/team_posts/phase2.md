@@ -79,7 +79,7 @@ This graph depicts the global asylum applications by year for every country of o
 # Localized ER Diagrams for User Archetypes 
 
 **Government Immigration Focused Entities**
-<img src = "https://i.imgur.com/5lv14AN.png">
+<img src = "https://i.imgur.com/12JLmZq.png">
 
 
 **Refugee Entities**
