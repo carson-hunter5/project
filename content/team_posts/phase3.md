@@ -28,5 +28,5 @@ This plot is detailing that the residuals appear to be non-normally distributed.
 # Features used for ML 
 
 # Surprises/setbacks
-The main difficulty when designing/fitting this model was that the linear regression model (to put it bluntly) was terrible. The r2 value was 0.02, and the mse was over 10,000,000. Due to the appearance of an exponential slope in the comparable graph conducted as a proof of concept in phase 2:
+The main difficulty when designing/fitting this model was that the linear regression model (to put it bluntly) was terrible. The r2 value was 0.02, and the mse was over 10,000,000. The idea of trying exponential regression came due to the intuition of Dr. Gerber after observing the appearance of an exponential slope in a comparable graph conducted as a proof of concept in the phase 2 blog post:
 <img src = "https://i.imgur.com/hOvzYWt.png"/>
