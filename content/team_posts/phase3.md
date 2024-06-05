@@ -17,7 +17,7 @@ The ML model from phase 1 was completely scrapped for a variety of reasons, incl
 
 # Dataset
 <img src = "https://i.imgur.com/HOojKct.png">
-This is the dataset used to train the exponential regression model, taken from <a href="https://icr.ethz.ch/data/epr/er/" target="_blank" >the same API</a> used in phase 2. 
+This is the dataset used to train the exponential regression model, taken from <a href="https://icr.ethz.ch/data/epr/er/" target="_blank" >the same API</a> used in phase 2. This dataset, however, gives information regarding the age and gender demographics of asylum seekers from 2010-2022.
 
 
 # Features used for ML 
