@@ -21,7 +21,7 @@ The quality of life overall is beyond comparable to that in the United states th
 
 
 <img src="https://i.imgur.com/quwuGqX.jpeg"/>
-*Brunch in Namur on May 18th, 2024*
+<figcaption>Brunch in Namur on May 18th, 2024</figcaption>
 
 
 **The Not-So-Good Things**

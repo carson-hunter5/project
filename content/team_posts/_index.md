@@ -12,4 +12,4 @@ showAuthorsBadges : false
 
 # Welcome to Subleva!
 
-Welcome to the Professorial Team's Blog
+Welcome to the Subleva Team's Blog, a blog post that consists of updates during the various project phases. 
