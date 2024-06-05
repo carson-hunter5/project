@@ -15,6 +15,6 @@ This past week has been an absolute whirlwind between finishing up DS3000, worki
 
 <img src = "https://i.imgur.com/kX3bI4J.png">
 
-This week, I spent a lot of time applying my best efforts to this rapidly evolving project. Because I am the only DS3000 student in my group, I handle most of the data science aspect of this project. This week, that mainly revolved around refining the first ML model for the project. 
+This week, I spent a lot of time applying my best efforts to this rapidly evolving project. Because I am the only DS3000 student in my group, I handle most of the data science aspect of this project. For the third phase of this project, it mainly revolved around refining the first ML model for the project. 
 
 As a group, we decided to take the project in a different direction than the proof of concept ML model last exemplified in phase 2 was headed in. Because of this, Dr. Gerber helped me to go through the data and view certain trends to visualize how the data might be manipulated to help our group create a new model. We ultimately landed on using age/gender demographics after hot encoding the dataframe to include every country in the columns. After this, the linear regression model was modified to exponential regression based on the slope of the line for asylum applications over time. This appeared challenging, although in the end it was only one or two extra lines of code.
