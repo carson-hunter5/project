@@ -15,4 +15,4 @@ This past week has been an absolute whirlwind between finishing up DS3000, worki
 
 <img src = "blob:https://imgur.com/047faaa1-0e5b-424a-a43d-bb20cab311e9">
 
-This week, I spent a lot of time applying my best efforts to this rapidly evolving project. Because I am the only DS3000 student in my group 
+This week, I spent a lot of time applying my best efforts to this rapidly evolving project. Because I am the only DS3000 student in my group, I handle most of the data science aspect of this project. This week, that mainly revolved around 
