@@ -25,6 +25,8 @@ This graph depicts the residuals of the exponential regression. There is clearly
 <img src = "https://i.imgur.com/eCMxirt.png">
 This plot is detailing that the residuals appear to be non-normally distributed. Because this is an indicator of poor model fitting, a box-cox transformation will be performed as an attempt to normalize the distribution of residuals.
 
-
 # Features used for ML 
+
 # Surprises/setbacks
+The main difficulty when designing/fitting this model was that the linear regression model (to put it bluntly) was terrible. The r2 value was 0.02, and the mse was over 10,000,000. Due to the appearance of an exponential slope in the comparable graph conducted as a proof of concept in phase 2:
+<img src = "https://i.imgur.com/hOvzYWt.png"/>
