@@ -25,8 +25,14 @@ This graph depicts the residuals of the exponential regression. There is clearly
 <img src = "https://i.imgur.com/eCMxirt.png">
 This plot is detailing that the residuals appear to be non-normally distributed. Because this is an indicator of poor model fitting, a box-cox transformation will be performed as an attempt to normalize the distribution of residuals.
 
-# Features used for ML 
+# Features used for ML and reasoning
+Country of Asylum (coa): Demographic patterns can differ significantly between countries. Including this variable enables the model to give more accurate information which is subjective to a specific country.
 
+Year : Demographic patterns can change over time due to factors like economic conditions, political instability, conflicts, and policy changes. The model should capture these temporal changes to make accurate future predictions.
+
+Age: Age is a critical demographic factor that influences health care needs, educational requirements, and economic participation. Breaking down the population into age groups allows the model to capture differences in demographic profiles and needs across various age brackets.
+
+Gender: Gender is a fundamental demographic factor that can affect migration patterns, health needs, and social vulnerabilities. Including gender allows the model to differentiate demographic patterns between males and females.
 # Surprises/setbacks
 The main difficulty when designing/fitting this model was that the linear regression model (to put it bluntly) was terrible. The r2 value was 0.02, and the mse was over 10,000,000. The idea of trying exponential regression came due to the intuition of Dr. Gerber after observing the appearance of an exponential slope in a comparable graph conducted as a proof of concept in the phase 2 blog post:
 <img src = "https://i.imgur.com/hOvzYWt.png"/>
