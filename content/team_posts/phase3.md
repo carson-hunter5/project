@@ -21,8 +21,9 @@ This is the dataset used to train the exponential regression model, taken from <
 
 
 <img src = "https://i.imgur.com/tk1XOsZ.png">
-This graph depicts the residuals of the exponential regression. There is clearly heteroscedasticity, exemplified by the lack of residuals randomly scattered around zero, an indicator of homoscedasticity. A future improvement for this model which will be investigated shortly is a box-cox transformation. This was ultimately hypothesized as a possible solution for the relatively poor model outcomes after viewing a Q-Q plot to investigate the distribution of data.
-
+This graph depicts the residuals of the exponential regression. There is clearly heteroscedasticity, exemplified by the lack of residuals randomly scattered around zero, an indicator of homoscedasticity. A future improvement for this model which will be investigated shortly is a box-cox transformation. This was ultimately hypothesized as a possible solution for the relatively poor model outcomes after viewing a Q-Q plot to investigate the distribution of residuals.
+<img src = "https://i.imgur.com/eCMxirt.png">
+This plot is detailing that the residuals appear to be non-normally distributed. Because this is an indicator of poor model fitting, a box-cox transformation will be performed as an attempt to normalize the distribution of residuals.
 
 
 # Features used for ML 
