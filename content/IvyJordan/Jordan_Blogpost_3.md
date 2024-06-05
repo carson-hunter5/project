@@ -1,6 +1,6 @@
 ---
 title: "Week 3: May 29th - June 5th "
-date: 2024-01-5
+date: 2024-06-05
 draft: false
 description: "This week's blog post including project changes and personal observations. "
 slug: "blogpost3"  
