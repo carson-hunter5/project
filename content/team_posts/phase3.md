@@ -184,6 +184,15 @@ GET /migrant/events
 
   GET /immigration_official/applicationTrends
       Purpose: Retrieve the overall trend of applications for a specific country in a given year.
+# Demonstration of Working Model
+![image1]('../assets/trial1-2.png)
+![image1]('../assets/trial1-3.png)
+![image1]('../assets/trial1-4.png)
+![image1]('../assets/trial1-5.png)
+![image1]('../assets/trial1-6.png)
+![image1]('../assets/trial1-7.png)
+![image1]('../assets/trial1-9.png)
+![image1]('../assets/trial1-10.png)
 
 # Surprises/setbacks
 The main difficulty when designing this model was that the linear regression model (to put it bluntly) was terrible. The r2 value was 0.02, and the mse was over 10,000,000. The idea of trying exponential regression came due to the intuition of Dr. Gerber after observing the appearance of an exponential slope in a comparable graph conducted as a proof of concept in the phase 2 blog post:
