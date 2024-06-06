@@ -28,4 +28,4 @@ Another thing that may also contribute to the lack of younger professionals and 
 
 # **Individual Contributions to Phase III**
 
-During this phase of the project, I completed the list of tables with whether or not that data would be sourced or generated. For the creation of the API routes, I went into google sheets and listed 10 routes that could be created within our app,and went through with the writing and implemetation of these routes into our api. On the Subleva page itself, I worked on creating the new pages and permissions for certain users which consisted of listing the oages and placing the valid information. 
+During this phase of the project, I completed the list of tables with whether or not that data would be sourced or generated. For the creation of the API routes, I went into google sheets and listed 10/11 routes that could be created within our app,and went through with the writing and implemetation of these routes into our api. On the Subleva page itself, I worked on creating the new pages and permissions for certain users which consisted of listing the oages and placing the valid information. 
