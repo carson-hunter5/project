@@ -98,6 +98,93 @@ Age: Age is a critical demographic factor that influences health care needs, edu
 
 Gender: Gender is a fundamental demographic factor that can affect migration patterns, health needs, and social vulnerabilities. Including gender allows the model to differentiate demographic patterns between males and females.
 
+# API Routes and Explanations
+
+## City Council API Routes
+
+GET /city_council
+    Purpose: Retrieve all community events from the database.
+
+POST /council_add_event
+    Purpose: Create a new community event.
+
+PUT /city_council/communityEvent
+    Purpose: Update an existing community event.
+
+DELETE /city_council/communityEvent/<eventID>
+    Purpose: Delete a specific community event based on its event ID.
+
+GET /city_council
+    Purpose: Retrieve all appointments from the database.
+
+GET /city_council/<cohortID>
+    Purpose: Get demographics for a specific cohort of refugees.
+
+
+DELETE /city_council/delete_bulletin/<post_id>
+    Purpose: Delete a specific bulletin post based on its post ID.
+
+GET /city_council/bulletin
+    Purpose: Retrieve all bulletin posts. 
+
+## Migrant API Routes 
+GET /migrant/appointments/<migrantID>
+    Purpose: Retrieve all appointments from the database for a specific migrant.
+
+GET /migrant/show_appt/<apptID>
+    Purpose: Retrieve a specific appointment based on its appointment ID.
+
+POST /migrant
+    Purpose: Create a new appointment for a migrant.
+
+PUT /migrant/appointment
+    Purpose: Update the appointment details for a specific migrant.
+
+DELETE /migrant/appointment_delete/<appointmentID>
+    Purpose: Delete a specific appointment based on its appointment ID.
+
+GET /migrant/posts
+    Purpose: Retrieve all posts from the database.
+
+GET /migrant/<migrantID>
+    Purpose: Retrieve a specific migrant's posts based on their migrant ID.
+
+POST /migrant/add_post
+    Purpose: Create a new post for a migrant.
+
+PUT /migrant/post
+    Purpose: Update a specific post for a migrant.
+
+DELETE /migrant/post/<postID>
+    Purpose: Delete a specific post based on its post ID.
+
+GET /migrant/events
+    Purpose: Retrieve all community events from the database.
+
+
+## Immigration Official API Routes 
+
+  GET /immigration_official/population
+    Purpose: Retrieve the population from the database based on countryID.
+
+  GET /immigration_official/countryStats
+      Purpose: Retrieve all country statistics from the database.
+
+  POST /immigration_official/newStat
+      Purpose: Create a new country statistic entry.
+
+  PUT /immigration_official/editCountryStat
+      Purpose: Update an existing country statistic.
+
+  DELETE /immigration_official/deleteCountryStat
+      Purpose: Delete a country statistic entry based on countryID.
+
+  GET /immigration_official/numApplications
+      Purpose: Retrieve the number of applications for a specific country in a given year.
+
+  GET /immigration_official/applicationTrends
+      Purpose: Retrieve the overall trend of applications for a specific country in a given year.
+
 # Surprises/setbacks
 The main difficulty when designing this model was that the linear regression model (to put it bluntly) was terrible. The r2 value was 0.02, and the mse was over 10,000,000. The idea of trying exponential regression came due to the intuition of Dr. Gerber after observing the appearance of an exponential slope in a comparable graph conducted as a proof of concept in the phase 2 blog post:
 <img src = "https://i.imgur.com/hOvzYWt.png"/>
