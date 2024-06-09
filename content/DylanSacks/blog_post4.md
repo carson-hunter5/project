@@ -25,5 +25,5 @@ Following these visualizations, I performed linear regression using matrix manip
 
 <img src = "https://i.imgur.com/TG2xFcD.png">
 
-
+This model did not look promising. After discussing with Dr. Gerber, we decided to fit an exponential model as opposed to linear, given the appearance of 
 
