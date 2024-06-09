@@ -1,6 +1,6 @@
 ---
 title: "Individual Blog Post 4"
-date: 2024-06-00
+date: 2024-06-09
 draft: false
 description: "The last one"
 slug: "phase4individualpost"
@@ -20,3 +20,10 @@ I handled beginning this project with the data visualizations of the datasets th
 <img src = "https://i.imgur.com/bcOawml.png">
 
 <img src = "https://i.imgur.com/YDswxAi.png">
+
+Following these visualizations, I performed linear regression using matrix manipulation based on the mathematical reasoning behind regression to view the relationship between applications and the features previously mentioned. 
+
+<img src = "https://i.imgur.com/TG2xFcD.png">
+
+
+
