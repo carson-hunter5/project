@@ -20,6 +20,7 @@ I handled beginning this project with the data visualizations of the datasets th
 <img src = "https://i.imgur.com/bcOawml.png">
 
 <img src = "https://i.imgur.com/YDswxAi.png">
+This was my favorite part of the project. Using such a large dataset to view different trends felt like there were endless possibilities and applications we could use our data for given all the manipulations and interpretations that could be made from those manipulations.
 
 Following these visualizations, I performed linear regression using matrix manipulation based on the mathematical reasoning behind regression to view the relationship between applications and the features previously mentioned. 
 
@@ -34,3 +35,5 @@ After finishing this model, I used randomforests classifier to make a model pred
 This model had a lot of promise and would strongly support the user archetypes we created at the beginning of the project. However, this model was ultimately trashed due to low success rate and personal preference for a third model I created using randomforests linear regression to predict the acceptance rate of a country given the year, country of origin, country of asylum, and total applications.
 
 <img src = "https://i.imgur.com/fyaTDZ2.png">
+
+I also assisted the database team as best I could to implement the models, such as working in tandem to create functions that could be called from the user in order to calculate the predictions from the model. 
