@@ -25,5 +25,5 @@ Following these visualizations, I performed linear regression using matrix manip
 
 <img src = "https://i.imgur.com/TG2xFcD.png">
 
-This model did not look promising. After discussing with Dr. Gerber, we decided to fit an exponential model as opposed to linear, given the appearance of the points in the first visualization graph (Asylun appplications to USA)
+This model did not look promising. After discussing with Dr. Gerber, we decided to fit an exponential model as opposed to linear, given the appearance of the points in the first visualization graph (Asylun appplications to USA). After implementing this model, the predictions were not very accurate. I looked at implementing a box-cox transformation, however after correcting the mistake of adding a 1 to all the values before taking the log by changing it to a 0.001, the Q-Q plot no longer showed as severe of a deviation in the residuals line indicating skewed residual distribution. The most difficult part of this project was dealing with the possible changes to this model. I
 
