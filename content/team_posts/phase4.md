@@ -12,8 +12,6 @@ authors:
 showAuthorsBadges : false
 ---
 
-{{< katex >}}
-
 # Model 1
 We, as a team initiated this project by searching for the most detailed datasets we could find and brainstorm how they could be used. After working together to come up with applications for the extensive UNHCR dataset about immigration, we began with data visualizations to view possible trends as inspiration for our ML model. We viewed the correlates of features included in the dataset such as year, gender, and country of asylum which fit to a linear regression model. 
 
