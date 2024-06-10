@@ -87,6 +87,8 @@ Based on our user stories we generated a final data model:
 
 This data model ensures all users will be able to achieve their desired goals. 
 
+<img src = "https://i.imgur.com/ADPAgeL.png">
+
 # Landing
  
 Upon entrance to the page, the user has the option to select one of the personas as outlined above. 
