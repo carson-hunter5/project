@@ -103,7 +103,7 @@
     "keywords": ["authors","config","docs"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "946"
+    "wordCount": "947"
   }]
   </script>
 
@@ -656,7 +656,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-09 00:00:00 &#43;0000 UTC">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>946 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  <time datetime="2024-06-09 00:00:00 &#43;0000 UTC">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>947 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
   
 
   
@@ -866,7 +866,7 @@ This was one of the correlation matrices used to come up with some of the idea b
 <img src = "https://i.imgur.com/PsnXH0N.png">
 <p>The country id&rsquo;s were used instead of country names because the randomforests regression model produced an error when countries were strings. The dataset used had each country both as a string and indexed so making this change was extremely easy, the columns of strings simply were swapped with the column of indexed countries.</p>
 <p>After importing randomforests regression libraries, defining the X features as year, country of origin, country of asylum, and total applications, and dependent variable as acceptance rate, the data were split into training and testing sets.</p>
-<p>The model was then trained and fit by calling the randomforestsregressor() .fit() functions. Predictions were made using the .predict() function. An advantige to this model was that randomforests does not calculate predictions the same way model 1 did manually. Instead of using matrices, it builds many decision trees with slight variations based on the unique subset of data it&rsquo;s trained on. Outputted predictions are then given by taking the average from all the trees from the training data. This has advantages and disadvantages, such as fewer assumptions regarding the data (doesn&rsquo;t have to be linear), while also having less troubleshooting if an output looks incorrect.</p>
+<p>The model was then trained and fit by calling the randomforestsregressor() .fit() functions. Predictions were made using the .predict() function. An advantige to this model was that randomforests does not calculate predictions the same way model 1 did manually. Instead of using matrices, it builds many decision trees with slight variations based on the unique subset of data it&rsquo;s trained on. Outputted predictions are then given by taking the average from all the trees from the training data. This has advantages and disadvantages, such as fewer assumptions regarding the data (doesn&rsquo;t have to be linear), while also having less troubleshooting capabilities if an output looks incorrect.</p>
 
         </div>
         
