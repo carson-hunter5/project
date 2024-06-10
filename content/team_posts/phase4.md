@@ -54,4 +54,8 @@ Cleaning the data and adding a column for acceptance rate by dividing number of 
 
 <img src = "https://i.imgur.com/PsnXH0N.png">
 
-The country id's were used instead of country names because the randomforests linear regression model produced an error when countries were strings. The dataset used had each country both as a string and indexed so making this change was extremely easy, the columns of strings simply were swapped with the column of indexed countries. 
+The country id's were used instead of country names because the randomforests regression model produced an error when countries were strings. The dataset used had each country both as a string and indexed so making this change was extremely easy, the columns of strings simply were swapped with the column of indexed countries. 
+
+After importing randomforests regression libraries, defining the X features as year, country of origin, country of asylum, and total applications, and dependent variable as acceptance rate, the data were split into training and testing sets.
+
+The model was then trained and fit by calling the randomforestsregressor() .fit() functions. Predictions were made using the .predict() function. An advantige to this model was that randomforests does not calculate predictions the same way model 1 did manually. Instead of using matrices, it builds many decision trees with slight variations based on the unique subset of data it's trained on. Outputted predictions are then given by taking the average from all the trees from the training data. This has advantages and disadvantages, such as fewer assumptions regarding the data (doesn't have to be linear), while also having less troubleshooting if an output looks incorrect.
