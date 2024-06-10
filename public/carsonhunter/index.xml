@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dialogue of Civilizations: Subleva - Blog Post</title>
+    <link>http://localhost:1313/gerber-test-hugo/carsonhunter/</link>
+    <description>Recent content on Dialogue of Civilizations: Subleva - Blog Post</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/gerber-test-hugo/carsonhunter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Post #1</title>
+      <link>http://localhost:1313/gerber-test-hugo/carsonhunter/post1/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/carsonhunter/post1/</guid>
+      <description>A New Continent - Initial Thoughts on My First Time in Europe # Hey Blog!</description>
+      
+    </item>
+    
+    <item>
+      <title>Blog Post #2</title>
+      <link>http://localhost:1313/gerber-test-hugo/carsonhunter/post2/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/carsonhunter/post2/</guid>
+      <description>Hi Blog!</description>
+      
+    </item>
+    
+    <item>
+      <title>Blog Post #3</title>
+      <link>http://localhost:1313/gerber-test-hugo/carsonhunter/post3/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/carsonhunter/post3/</guid>
+      <description>Hey Blog!</description>
+      
+    </item>
+    
+  </channel>
+</rss>

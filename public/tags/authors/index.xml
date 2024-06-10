@@ -1,60 +1,160 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Summer 2024 Brussels DoC Blog Template</title>
-    <link>http://localhost:1313/hugo-blog-template/tags/authors/</link>
-    <description>Recent content in Authors on Summer 2024 Brussels DoC Blog Template</description>
+    <title>Authors on Dialogue of Civilizations: Subleva - Blog Post</title>
+    <link>http://localhost:1313/gerber-test-hugo/tags/authors/</link>
+    <description>Recent content in Authors on Dialogue of Civilizations: Subleva - Blog Post</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-blog-template/tags/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/gerber-test-hugo/tags/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Piano Playing</title>
-      <link>http://localhost:1313/hugo-blog-template/markfontenot/piano/</link>
-      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <title>Individual Blog Post 4</title>
+      <link>http://localhost:1313/gerber-test-hugo/dylansacks/phase4individualpost/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-blog-template/markfontenot/piano/</guid>
-      <description>Piano # The piano is a percussion instrument that has 88 keys and usually 3 pedals.</description>
+      <guid>http://localhost:1313/gerber-test-hugo/dylansacks/phase4individualpost/</guid>
+      <description>Final Blog Post # I&amp;rsquo;d like to start this final blog post by emphasizing just how impactful this final project has been to top off this amazing dialogue experience.</description>
       
     </item>
     
     <item>
-      <title>Databases are fun!</title>
-      <link>http://localhost:1313/hugo-blog-template/markfontenot/databases/</link>
-      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <title>Project - Phase IIII</title>
+      <link>http://localhost:1313/gerber-test-hugo/team_posts/phase4post/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-blog-template/markfontenot/databases/</guid>
-      <description>MySQL # So, let&amp;rsquo;s talk about databases.</description>
+      <guid>http://localhost:1313/gerber-test-hugo/team_posts/phase4post/</guid>
+      <description>Model 1 # We, as a team initiated this project by searching for the most detailed datasets we could find and brainstorm how they could be used.</description>
+      
+    </item>
+    
+    <item>
+      <title>Individual Blog Post 3</title>
+      <link>http://localhost:1313/gerber-test-hugo/dylansacks/phase3individualpost/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/dylansacks/phase3individualpost/</guid>
+      <description>Individual blog post 3 # This past week has been an absolute whirlwind between finishing up DS3000, working on the project, and guest speakers.</description>
+      
+    </item>
+    
+    <item>
+      <title>Project - Phase III</title>
+      <link>http://localhost:1313/gerber-test-hugo/team_posts/phase3post/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/team_posts/phase3post/</guid>
+      <description>Data Model Modifications and Updates # The ML model from phase 1 was completely scrapped for a variety of reasons, including a lack of impact the output would have on the user.</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 3: May 29th - June 5th </title>
+      <link>http://localhost:1313/gerber-test-hugo/ivyjordan/blogpost3/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/ivyjordan/blogpost3/</guid>
+      <description>Luxembourg and it&amp;rsquo;s Many Luxuries # On May 31st - June 3rd, we spent the weekend in Luxembourg, which was very similar and yet different from Belgium.</description>
+      
+    </item>
+    
+    <item>
+      <title>Individual Blog Post 2</title>
+      <link>http://localhost:1313/gerber-test-hugo/dylansacks/phase2individualpost/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/dylansacks/phase2individualpost/</guid>
+      <description>Individual blog post 2 # I managed most of the data science aspects of this phase such as pulling the data from the API&amp;rsquo;s, using pandas to clean them, and investigating possible EDA&amp;rsquo;s to exemplify the main aspects of the datasets and visualize the potential answers to the major questions which inspired this project.</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 2: May 21st - May 28th</title>
+      <link>http://localhost:1313/gerber-test-hugo/ivyjordan/blogpost2/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/ivyjordan/blogpost2/</guid>
+      <description>Midpoint Dialogue Reflection # I have officailly been in Belgium for rougly two weeks by the time this blog has been posted (assuming that I&amp;rsquo;m not stupid enough to accidently get myself sent home).</description>
       
     </item>
     
     <item>
       <title>Project - Phase I</title>
-      <link>http://localhost:1313/hugo-blog-template/team_posts/phase1post/</link>
-      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/gerber-test-hugo/team_posts/phase1post/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-blog-template/team_posts/phase1post/</guid>
-      <description>Introduction # Hi, We are Team Leuven!</description>
+      <guid>http://localhost:1313/gerber-test-hugo/team_posts/phase1post/</guid>
+      <description>Introduction # Hi, and welcome to our blog!</description>
+      
+    </item>
+    
+    <item>
+      <title>Project - Phase II</title>
+      <link>http://localhost:1313/gerber-test-hugo/team_posts/phase2post/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/team_posts/phase2post/</guid>
+      <description>Updates and Changes from Phase I # After our first initial round of feedback, we decided to implement a few changes from the original blogpost.</description>
+      
+    </item>
+    
+    <item>
+      <title>Blog Post #1</title>
+      <link>http://localhost:1313/gerber-test-hugo/carsonhunter/post1/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/carsonhunter/post1/</guid>
+      <description>A New Continent - Initial Thoughts on My First Time in Europe # Hey Blog!</description>
+      
+    </item>
+    
+    <item>
+      <title>Blog Post #2</title>
+      <link>http://localhost:1313/gerber-test-hugo/carsonhunter/post2/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/carsonhunter/post2/</guid>
+      <description>Hi Blog!</description>
+      
+    </item>
+    
+    <item>
+      <title>Blog Post #3</title>
+      <link>http://localhost:1313/gerber-test-hugo/carsonhunter/post3/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/carsonhunter/post3/</guid>
+      <description>Hey Blog!</description>
+      
+    </item>
+    
+    <item>
+      <title>Individual Blog Post 1</title>
+      <link>http://localhost:1313/gerber-test-hugo/dylansacks/phase1individualpost/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/dylansacks/phase1individualpost/</guid>
+      <description>Individual blog post 1 # Although I have thoroughly enjoyed just about every activity we’ve done on the dialogue, the one that stands out the most was the first visit we had to the EEAS in Brussels.</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 1: May 13th - May 20th</title>
+      <link>http://localhost:1313/gerber-test-hugo/ivyjordan/blogpost1/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gerber-test-hugo/ivyjordan/blogpost1/</guid>
+      <description>Brussel&amp;rsquo;s International Presence # One thing that I&amp;rsquo;ve found interesting so far being in Belgium, in general is just the sheer amount of international agencies are based here.</description>
       
     </item>
     
     <item>
       <title>Project - Phase I</title>
-      <link>http://localhost:1313/hugo-blog-template/team_posts/</link>
+      <link>http://localhost:1313/gerber-test-hugo/team_posts/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-blog-template/team_posts/</guid>
-      <description>Welcome to Team WeCanDoThis!</description>
-      
-    </item>
-    
-    <item>
-      <title>Stats are fun</title>
-      <link>http://localhost:1313/hugo-blog-template/ericgerber/first/</link>
-      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/hugo-blog-template/ericgerber/first/</guid>
-      <description>Stats # Let&amp;rsquo;s talk about Principal Component Analysis!</description>
+      <guid>http://localhost:1313/gerber-test-hugo/team_posts/</guid>
+      <description>Welcome to Subleva!</description>
       
     </item>
     
