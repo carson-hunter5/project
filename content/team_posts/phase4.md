@@ -31,3 +31,12 @@ The model was firther checked by calculating r2, mse. A Q-Q and residuals vs pre
 
 <img src = "https://i.imgur.com/tk1XOsZ.png">
 
+This function was then written to be able to make and call the unique X matrix of 1 and 0 containing information for year, country (array of all zeroes other than a 1 for desired country in the same order as the final dataframe the model was trained on), gender (1 for male, 0 for female), and age (array of zeroes other than the specific age group in the same order model was trained on)to be used for future predicitons. This is called one-hot encoding, and is very common for training ML models:
+<img src = "https://i.imgur.com/laPBZcS.png">
+
+The fucntion can then be used to output the following:
+
+<img src = "https://i.imgur.com/LRCaVgL.png">
+
+A bias column is then added to this resulting matrix, which the dot product with the coefficient matrix is taken 
+
