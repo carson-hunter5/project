@@ -12,8 +12,6 @@ authors:
 showAuthorsBadges : false
 ---
 
-{{< katex >}}
-
 # Model 1
 We, as a team initiated this project by searching for the most detailed datasets we could find and brainstorm how they could be used. After working together to come up with applications for the extensive UNHCR dataset about immigration, we began with data visualizations to view possible trends as inspiration for our ML model. We viewed the correlates of features included in the dataset such as year, gender, and country of asylum which fit to a linear regression model. 
 
@@ -60,4 +58,68 @@ After importing randomforests regression libraries, defining the X features as y
 
 The model was then trained and fit by calling the randomforestsregressor() .fit() functions. Predictions were made using the .predict() function. An advantige to this model was that randomforests does not calculate predictions the same way model 1 did manually. Instead of using matrices, it builds many decision trees with slight variations based on the unique subset of data it's trained on. Outputted predictions are then given by taking the average from all the trees from the training data. This has advantages and disadvantages, such as fewer assumptions regarding the data (doesn't have to be linear), while also having less troubleshooting capabilities if an output looks incorrect.
 
-https://1drv.ms/p/s!AoI_NaOVP0kei2mD7Rs13rULGXZi
+## Software Architecture
+
+After our team generated both machine learning models, we began to implement them into the software as described by our user stories. After making decisions feasability, ease of use, and availability of data, we decided to make final edits to our personas and their resulting stories: 
+
+# User Stories 
+Jackson retains his position as a senior immigration official for a government entity. His user stories change as follows: 
+
+a) "As an immigration official, I want to be able to view the general population for  various countries so I can determine if there are adequate resources to accept asylum applications and compare other country populations to my own."
+
+b) "As an immigration official, I want to be able predict the number of applicants for a given age group, gender, country of asylum, and year.
+
+c) "As an immigration official, I want to be able to predict a country's asylum application rate based on a given country of origin, year, and total number of applications. 
+
+Hugo retains his identity as a migrant in a new city looking to access community resources. His user stories also remain from phase 2. 
+
+Tanya also keeps her position as the head of refugee affairs for her city council looking to manage and coordinate refugee resources. Her user stories change as follows: 
+
+a)"As an urban development planner, I want to organize community events to support the refugee population so that we can build better relationships between refugees and citizens of the city." 
+
+b)"As an urban development planner, I want to coordinate appointments with refugee population representatives to address their needs and concerns so that we can better improve refugees’ quality of life during their time in my city."
+
+c)"As an urban development planner, I want to oversee a community bulletin board, with the ability to moderate and delete comments. 
+
+# Data Model
+
+Based on our user stories we generated a final data model: 
+
+This data model ensures all users will be able to achieve their desired goals. 
+
+<img src = "https://i.imgur.com/ADPAgeL.png">
+
+# Landing
+ 
+Upon entrance to the page, the user has the option to select one of the personas as outlined above. 
+
+# Jackson Davies 
+
+When the user logs in to the Jackson Davies archetype, they are greeted and given a list of tasks to do. These tasks do not actually interact with the database, but instead are just front in features. 
+
+The first thing the user can do is predict the number of applications to a given country of asylum based on a given year, gender, and age group. When the user submits, their inputs are stored as arrays and the api calls the beta values for the regression model from the database. The two values are multiplied an expected number of applcations is outputted. 
+
+In the next page, the user can predict asylum application acceptance rate for a given country of origin, country of asylum, year, and number of total decisons. When the user submits, a random forest classifier runs via an api call and returns an ecpected acceptance rate. In the front end, the acceptance rate is rounded and converted to a percent. 
+
+The user can also access a table of population statistics for a given country through an api call to the values stored in the database. 
+
+# Hugo Diallo
+
+When the user enters the Hugo Diallo session state, they are greated by a list of areas to navigate to. 
+
+"Appointment Book" Returns a list of all the appointments for the given user (their id has been authenticated upon login). 
+
+The user can also select a weekday and view appointments which fall during that weekday. These appointments are similar to a "DMV" style appointment system, where a certain number of users can reserve a spot and the actual appointments come "first come first serve" style. They can also cancel appointments they are signed up for. 
+
+The user can also view a list of community events through a GET call to the database. 
+
+Finally the user can add posts to a bulletin style message board where they set a display name and content of their post. The user does not have the ability to edit or delete their posts. 
+
+# Tanya Bracker
+When the user logs in as Tanya Bracker, they land on a page of upcoming events. 
+
+"Manage Community Events" takes the user to a page where they get a more detailed view of the events, showing things like duration, venue capacity. The user can create new events where they specify the name, duration in hours, date, and venue capacity. They can also edit and cancel events, which is reflected application wide. 
+
+The user can also delete and edit posts that the migrants make as a moderator/administrator of the bulletin board. 
+
+Finally, the user can scheudle, cancel, and delete appointment slots, which is also reflected application wide. 
