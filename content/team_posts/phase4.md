@@ -25,4 +25,4 @@ The pandas function get_dummies() was used to assign the rows dummy variables. T
 
 <img src = "https://i.imgur.com/dF61YfU.png"/>
 
-This was done to use the resulting matrix (that now only had integers but retained all the desired information) could be used to manually train the model. The X-values(predictors) and y(number of applicants) were assigned and a bias column was added to the predictors. The coefficients were then calculated using the normal equation $b = (X^TX)^{-1}X^Ty$ 
+This was done to use the resulting matrix (that now only had integers but retained all the desired information) could be used to manually train the model. The X-values(predictors) and y(number of applicants) were assigned and a bias column was added to the predictors. The coefficients were then calculated using the normal equation $\b = (X^TX)^{-1}X^Ty$ 
