@@ -36,7 +36,7 @@ This model had a lot of promise and would strongly support the user archetypes w
 
 <img src = "https://i.imgur.com/fyaTDZ2.png">
 
-I also assisted the database team as best I could to implement the models, such as working in tandem to create functions that could be called from the user in order to calculate the predictions from the model. 
+I also assisted the database team as best I could to implement the models, working in tandem to create functions that could be called from the user in order to calculate the predictions from the model. 
 
 I would include this project on my resume in my extracurriculars section (as a non-cs major) by saying:
 
