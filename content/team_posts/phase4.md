@@ -1,5 +1,5 @@
 ---
-title: "Project - Phase IIII"
+title: "Project - Phase IV"
 date: 2024-06-09
 draft: false
 description: "Phase Four of our Dialouge Project "
@@ -42,3 +42,4 @@ The fucntion can then be used to output the following:
 <img src = "https://i.imgur.com/LRCaVgL.png">
 
 A bias column was then added to this resulting matrix, accomodating for the y-intercept, of which the dot product with the coefficient matrix was taken. The resulting output was then bakctransformed by applying the exponential function due to the log-transformed data from the beginning of the data manipulation. 
+
