@@ -103,7 +103,7 @@
     "keywords": ["authors","config","docs"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "948"
+    "wordCount": "1750"
   }]
   </script>
 
@@ -115,139 +115,6 @@
   
 
 <script src="/gerber-test-hugo/lib/jquery/jquery.slim.min.js" integrity=""></script>
-
-
-
-
-
-
-
-
-
-
-
-<link type="text/css" rel="stylesheet" href="/gerber-test-hugo/lib/katex/katex.min.af6f85907cdfd6ed3e4906d93a8233d91c5638859f744cd1b98c9b1a3ccaab5f231bdcda49f132f6cdfe8cca86ff33ed468affab8a9a502610a664a34f0f0cfa.css" integrity="sha512-r2&#43;FkHzf1u0&#43;SQbZOoIz2RxWOIWfdEzRuYybGjzKq18jG9zaSfEy9s3&#43;jMqG/zPtRor/q4qaUCYQpmSjTw8M&#43;g==" />
-
-
-<script defer src="/gerber-test-hugo/lib/katex/katex.min.20da6cf7343619410c0900fbc626506c65159ea9f312f9729d5cba7aa713707378f9a4222e8f7fb9a42a7240e9749f199b7334401b3e3e4b60e29cf490492552.js" integrity="sha512-INps9zQ2GUEMCQD7xiZQbGUVnqnzEvlynVy6eqcTcHN4&#43;aQiLo9/uaQqckDpdJ8Zm3M0QBs&#43;Pktg4pz0kEklUg=="></script>
-
-
-<script defer src="/gerber-test-hugo/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
-  onload="renderMathInElement(document.body);"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -656,7 +523,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-09 00:00:00 &#43;0000 UTC">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>948 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  <time datetime="2024-06-09 00:00:00 &#43;0000 UTC">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1750 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">9 mins</span>
   
 
   
@@ -820,8 +687,6 @@
         <div class="article-content max-w-prose mb-20">
           
 
-
-
 <h1 class="relative group">Model 1 
     <div id="model-1" class="anchor"></div>
     
@@ -867,8 +732,117 @@ This was one of the correlation matrices used to come up with some of the idea b
 <p>The country id&rsquo;s were used instead of country names because the randomforests regression model produced an error when countries were strings. The dataset used had each country both as a string and indexed so making this change was extremely easy, the columns of strings simply were swapped with the column of indexed countries.</p>
 <p>After importing randomforests regression libraries, defining the X features as year, country of origin, country of asylum, and total applications, and dependent variable as acceptance rate, the data were split into training and testing sets.</p>
 <p>The model was then trained and fit by calling the randomforestsregressor() .fit() functions. Predictions were made using the .predict() function. An advantige to this model was that randomforests does not calculate predictions the same way model 1 did manually. Instead of using matrices, it builds many decision trees with slight variations based on the unique subset of data it&rsquo;s trained on. Outputted predictions are then given by taking the average from all the trees from the training data. This has advantages and disadvantages, such as fewer assumptions regarding the data (doesn&rsquo;t have to be linear), while also having less troubleshooting capabilities if an output looks incorrect.</p>
-<p><a href="https://1drv.ms/p/s!AoI_NaOVP0kei2mD7Rs13rULGXZi"   target="_blank">
-    https://1drv.ms/p/s!AoI_NaOVP0kei2mD7Rs13rULGXZi</a></p>
+
+
+<h2 class="relative group">Software Architecture 
+    <div id="software-architecture" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#software-architecture" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>After our team generated both machine learning models, we began to implement them into the software as described by our user stories. After making decisions feasability, ease of use, and availability of data, we decided to make final edits to our personas and their resulting stories:</p>
+
+
+<h1 class="relative group">User Stories 
+    <div id="user-stories" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#user-stories" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>Jackson retains his position as a senior immigration official for a government entity. His user stories change as follows:</p>
+<p>a) &ldquo;As an immigration official, I want to be able to view the general population for  various countries so I can determine if there are adequate resources to accept asylum applications and compare other country populations to my own.&rdquo;</p>
+<p>b) &ldquo;As an immigration official, I want to be able predict the number of applicants for a given age group, gender, country of asylum, and year.</p>
+<p>c) &ldquo;As an immigration official, I want to be able to predict a country&rsquo;s asylum application rate based on a given country of origin, year, and total number of applications.</p>
+<p>Hugo retains his identity as a migrant in a new city looking to access community resources. His user stories also remain from phase 2.</p>
+<p>Tanya also keeps her position as the head of refugee affairs for her city council looking to manage and coordinate refugee resources. Her user stories change as follows:</p>
+<p>a)&ldquo;As an urban development planner, I want to organize community events to support the refugee population so that we can build better relationships between refugees and citizens of the city.&rdquo;</p>
+<p>b)&ldquo;As an urban development planner, I want to coordinate appointments with refugee population representatives to address their needs and concerns so that we can better improve refugees’ quality of life during their time in my city.&rdquo;</p>
+<p>c)&ldquo;As an urban development planner, I want to oversee a community bulletin board, with the ability to moderate and delete comments.</p>
+
+
+<h1 class="relative group">Data Model 
+    <div id="data-model" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#data-model" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>Based on our user stories we generated a final data model:</p>
+<p>This data model ensures all users will be able to achieve their desired goals.</p>
+<img src = "https://i.imgur.com/ADPAgeL.png">
+
+
+<h1 class="relative group">Landing 
+    <div id="landing" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#landing" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>Upon entrance to the page, the user has the option to select one of the personas as outlined above.</p>
+
+
+<h1 class="relative group">Jackson Davies 
+    <div id="jackson-davies" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#jackson-davies" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>When the user logs in to the Jackson Davies archetype, they are greeted and given a list of tasks to do. These tasks do not actually interact with the database, but instead are just front in features.</p>
+<p>The first thing the user can do is predict the number of applications to a given country of asylum based on a given year, gender, and age group. When the user submits, their inputs are stored as arrays and the api calls the beta values for the regression model from the database. The two values are multiplied an expected number of applcations is outputted.</p>
+<p>In the next page, the user can predict asylum application acceptance rate for a given country of origin, country of asylum, year, and number of total decisons. When the user submits, a random forest classifier runs via an api call and returns an ecpected acceptance rate. In the front end, the acceptance rate is rounded and converted to a percent.</p>
+<p>The user can also access a table of population statistics for a given country through an api call to the values stored in the database.</p>
+
+
+<h1 class="relative group">Hugo Diallo 
+    <div id="hugo-diallo" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hugo-diallo" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>When the user enters the Hugo Diallo session state, they are greated by a list of areas to navigate to.</p>
+<p>&ldquo;Appointment Book&rdquo; Returns a list of all the appointments for the given user (their id has been authenticated upon login).</p>
+<p>The user can also select a weekday and view appointments which fall during that weekday. These appointments are similar to a &ldquo;DMV&rdquo; style appointment system, where a certain number of users can reserve a spot and the actual appointments come &ldquo;first come first serve&rdquo; style. They can also cancel appointments they are signed up for.</p>
+<p>The user can also view a list of community events through a GET call to the database.</p>
+<p>Finally the user can add posts to a bulletin style message board where they set a display name and content of their post. The user does not have the ability to edit or delete their posts.</p>
+
+
+<h1 class="relative group">Tanya Bracker 
+    <div id="tanya-bracker" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#tanya-bracker" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>When the user logs in as Tanya Bracker, they land on a page of upcoming events.</p>
+<p>&ldquo;Manage Community Events&rdquo; takes the user to a page where they get a more detailed view of the events, showing things like duration, venue capacity. The user can create new events where they specify the name, duration in hours, date, and venue capacity. They can also edit and cancel events, which is reflected application wide.</p>
+<p>The user can also delete and edit posts that the migrants make as a moderator/administrator of the bulletin board.</p>
+<p>Finally, the user can scheudle, cancel, and delete appointment slots, which is also reflected application wide.</p>
 
         </div>
         
