@@ -27,4 +27,7 @@ The pandas function get_dummies() was used to assign the rows dummy variables. T
 
 This was done to use the resulting matrix (that now only had integers but retained all the desired information) could be used to manually train the model. The X-values(predictors) and y(number of applicants) were assigned and a bias column was added to the predictors. The coefficients were then calculated using the normal equation $$ b = (X^T X)^{-1} X^T y $$ , and predications were calculated by multiplying the coefficients matrix by the X matrix, and residuals were calculated by subtracting the difference in predicted versus actual values.  
 
-The model was firther checked by calculating r2, mse. A Q-Q and residuals vs predicted values was completed to view the model success. Unfortunately, the rows with zeroes greatly affected the model as outliers. 
+The model was firther checked by calculating r2, mse. A Q-Q and residuals vs predicted values was completed to view the model success. Unfortunately, the rows with zeroes greatly affected the model as outliers, and brought the slope down greatly. This can be seen in the following graph by the outlier line below 0:
+
+<img src = "https://i.imgur.com/tk1XOsZ.png">
+
