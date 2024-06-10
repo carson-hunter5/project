@@ -12,6 +12,9 @@ authors:
 showAuthorsBadges : false
 ---
 # Model 1
-We, as a team initiated this project by searching for the most detailed datasets we could find and brainstorm how they could be used. After working together to come up with applications for the extensive UNHCR dataset about immigration, we began with data visualizations to view possible trends as inspiration for our ML model. We viewed the correlates of features included in the dataset such as year, country of asylum, and country of origin which fit to a linear regression model. This model predicted the age group demographics of asylum applicants based on year, their country of origin, country of asylum, and age group
+We, as a team initiated this project by searching for the most detailed datasets we could find and brainstorm how they could be used. After working together to come up with applications for the extensive UNHCR dataset about immigration, we began with data visualizations to view possible trends as inspiration for our ML model. We viewed the correlates of features included in the dataset such as year, country of asylum, and country of origin which fit to a linear regression model. 
 
-Our first model is an exponential regression model which outputs the predicted number of applicants expected to seek asylum given the country of asylum (where they're migrating to) and their age group[(0-4), (5-11), (12-17), (18-59), (60+)]. The overall intention was to create this product to be used by migration officials such as Tanya Brakcer from our initial user archetype to better understand and predict the age group demographic immigrating to new countries in order to effectively allocate school budgets. 
+This shortly evolved to an exponential regression model due to the trend appearing in some of the data visualizations:
+<img src = "https://i.imgur.com/hOvzYWt.png"/>
+
+The model outputs outputs the predicted number of applicants expected to seek asylum given the country of asylum (where they're migrating to) and their age group[(0-4), (5-11), (12-17), (18-59), (60+)]. The overall intention was to create this product to be used by migration officials such as Tanya Brakcer from our initial user archetype to better understand and predict the age group demographic immigrating to new countries in order to effectively allocate school budgets. 
