@@ -103,7 +103,7 @@
     "keywords": ["authors","config","docs"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "657"
+    "wordCount": "807"
   }]
   </script>
 
@@ -656,7 +656,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-09 00:00:00 &#43;0000 UTC">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>657 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  <time datetime="2024-06-09 00:00:00 &#43;0000 UTC">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>807 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
   
 
   
@@ -847,6 +847,24 @@
 <p>The fucntion can then be used to output the following:</p>
 <img src = "https://i.imgur.com/LRCaVgL.png">
 <p>A bias column was then added to this resulting matrix, accomodating for the y-intercept, of which the dot product with the coefficient matrix was taken. The resulting output was then bakctransformed by applying the exponential function due to the log-transformed data from the beginning of the data manipulation.</p>
+
+
+<h1 class="relative group">Model 2 
+    <div id="model-2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#model-2" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>The pipeline leading to the implementation of the second model began similarly to the first by deciding on a linear regression model to predict the acceptance rates for countries of asylum given the year, country of origin, and total applications based on extensive data visualizations that occured after manipulating the dataframes:</p>
+<img src = "https://i.imgur.com/P9gbnJY.png">
+This was one of the correlation matrices used to come up with some of the idea behind the second model. 
+<p>Cleaning the data and adding a column for acceptance rate by dividing number of acceptances by total applications resulted in the following:</p>
+<img src = "https://i.imgur.com/PsnXH0N.png">
+<p>The country id&rsquo;s were used instead of country names because the randomforests linear regression model produced an error when countries were strings. The dataset used had each country both as a string and indexed so making this change was extremely easy, the columns of strings simply were swapped with the column of indexed countries.</p>
 
         </div>
         

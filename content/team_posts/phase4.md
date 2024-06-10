@@ -43,3 +43,15 @@ The fucntion can then be used to output the following:
 
 A bias column was then added to this resulting matrix, accomodating for the y-intercept, of which the dot product with the coefficient matrix was taken. The resulting output was then bakctransformed by applying the exponential function due to the log-transformed data from the beginning of the data manipulation. 
 
+
+# Model 2
+The pipeline leading to the implementation of the second model began similarly to the first by deciding on a linear regression model to predict the acceptance rates for countries of asylum given the year, country of origin, and total applications based on extensive data visualizations that occured after manipulating the dataframes:
+
+<img src = "https://i.imgur.com/P9gbnJY.png">
+This was one of the correlation matrices used to come up with some of the idea behind the second model. 
+
+Cleaning the data and adding a column for acceptance rate by dividing number of acceptances by total applications resulted in the following:
+
+<img src = "https://i.imgur.com/PsnXH0N.png">
+
+The country id's were used instead of country names because the randomforests linear regression model produced an error when countries were strings. The dataset used had each country both as a string and indexed so making this change was extremely easy, the columns of strings simply were swapped with the column of indexed countries. 
