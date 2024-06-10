@@ -22,4 +22,7 @@ The model outputs outputs the predicted number of applicants expected to seek as
 After the demographics dataset was loaded and cleaned by removing unnecessary or repeated columns, the pandas function df.melt was used to change the dataframe from a long to wide format. This essentially created a row for each instance of the counts in the multiple age group columns, combining those separate columns into one age group column. Each row now had a unique combination of year, country of asylum, age group, gender and number of people who fit that exact demographic. Because we decided this should be an exponential model, the log of that number was taken after adding 0.0001 to include the rows that had a number of 0 given the zeroes (No 0-4 females applied for asylum to Afghanistan in 2010). 
 
 The pandas function get_dummies() was used to assign the rows dummy variables. This changed countries column to give each unique country a column (increasing the number of columns by about 200). Every country in the row has a 0 other than a 1 for the country that the row is referencing:
+
 <img src = "https://i.imgur.com/dF61YfU.png"/>
+
+This was done to use the resulting matrix (that now only had integers but retained all the desired information) could be used to manually train the model. The X-values(predictors) and y(number of applicants) were assigned and a bias column was added to the predictors. The coefficients were then calculated using the normal equation $(X^TX)^{-1}X^Ty$
