@@ -35,7 +35,7 @@ After finishing this model, I used randomforests classifier to make a model pred
 This model had a lot of promise and would strongly support the user archetypes we created at the beginning of the project. However, this model was ultimately trashed due to low success rate and personal preference for a third model I created using randomforests linear regression to predict the acceptance rate of a country given the year, country of origin, country of asylum, and total applications.
 
 <img src = "https://i.imgur.com/fyaTDZ2.png">
-
+In addition to making these models, I performed cross validation to ensure there was minimal over/underfitting
 I also assisted the database team as best I could to implement the models, working in tandem to create functions that could be called from the user in order to calculate the predictions from the model. 
 
 I would include this project on my resume in my extracurriculars section (as a non-cs major) by saying:
