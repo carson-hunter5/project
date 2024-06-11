@@ -27,8 +27,9 @@ All of this to say that I would definelty do it again if given a second chance (
 Can't wait to show off my new and improved resume to Dr. Fontenot during his office hours! Here's a sneak preview as to what I plan on writing: 
 
 Subleva - Migration Analytics Web Application | SQL, Python, Flask, Streamlit
-    - Developed REST API using Flask to facilitate real-time data storage and retrieval for news articles.
+    - Developed REST API using Flask to facilitate real-time data storage and retrieval for migration data.
     - Built a front-end interface using Streamlit, allowing users to interact with the backend the web application.
+    - Generated mock data and inserted data from web scraping to compile into the backend database. 
 
 # **Last Adventures in Leuven** 
 
