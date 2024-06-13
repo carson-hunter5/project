@@ -10,7 +10,7 @@ authors:
 showAuthorsBadges : false
 ---
 
-## The End of an Era
+# The End of an Era
 
 Hey blog,
 
@@ -22,7 +22,7 @@ Though intense, this project has been one of the most profound learning experien
 
 In terms of the work distribution, I largely functioned as a medium for this project. As a data science major, I have an understanding of Python programming that allowed me to work as a bridge between the computer and data science project. While Ivy did much of the front-end work, I handled many of the routes and the implementation of the ML models. I worked heavily on inputting data into the database, acquiring it through calls, and using the information from the database in the models Dylan built. Overall, I feel I was a good intermediary between CS and DS. 
 
-# Resume Entry
+## Resume Entry
 
 Database and Software Design- Subleva (05/2024-06/2024)
 - Collaboratively engineered full stack application to manage, analyze, and cater to refugee populations
