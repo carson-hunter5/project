@@ -1,9 +1,9 @@
 ---
-title: "Blog Post #3"
+title: "Blog Post #4"
 date: 2024-05-17
 draft: false
 description: "Homestretch"
-slug: "post3"
+slug: "post4"
 tags: ["authors", "config", "docs"]
 authors:
   - "carson_hunter"
