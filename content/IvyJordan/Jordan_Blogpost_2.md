@@ -17,7 +17,7 @@ There has been a few moments of culture shock that has happened to me after bein
 
 **The Good Things**
 
-The quality of life overall is beyond comparable to that in the United states that I've noticed. The air seems freshier - but this could also be because we are in a "small" town outside of Brussels. The towns are overall much cleanier with no excessive trash and rubbish on the street, and maintanece being maintained by workers who throughly do their job. The food is better, not just in terms of cusinines and restraunts available within a half mile, but the quality of the food is better as well. From fast food chains like KFC and McDonald's to local bars and restraunts like Barvista and De Graffe, all have fresh ingredients with no additives and preservevatives. I feel healthier overall even though most of my diet consists of takeout and restaraunts. 
+The quality of life overall is beyond comparable to that in the United states that I've noticed. The air seems freshier - but this could also be because we are in a "small" town outside of Brussels. The towns are overall much cleanier with no excessive trash and rubbish on the street, and the overall environment being maintained by workers who throughly do their job. The food is better, not just in terms of cusinines and restraunts available within a half mile, but the quality of the food is better as well. From fast food chains like KFC and McDonald's to local bars and restraunts like Barvista and De Graffe, all have fresh ingredients with no additives and preservevatives. I feel healthier overall even though most of my diet consists of takeout and restaraunts. 
 
 
 <img src="https://i.imgur.com/quwuGqX.jpeg"/>
@@ -30,7 +30,7 @@ There has only been a few things that I haven't liked as much since being here i
 
 1) Paying for water at bars and restaraunts!!! At first, I didn't fully process that water was not free with meals. The fact that water is more expensive than beer at certain restraunts is absolutely crazy to me, but I guess that gives me an excuse to sample beers from the beer capital of Europe.
 
-2) No AC: I am fully aware that air condition is not common within Europe, and if it is installed its typically installed by that tenat. However, coming back from long excurisons in the evening and my room being a sweatbox is not ideal. 
+2) No AC: I am fully aware that air condition is not common within Europe, and if it is installed its typically installed by that tenat however, coming back from long excurisons in the evening and my room being a sweatbox is not ideal. 
 
 
 # **Individual Contributions to Phase II**
